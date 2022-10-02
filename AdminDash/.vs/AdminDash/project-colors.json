@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d269e8c1-28db-4818-ac76-e2b15337bec5": {
+      "ProjectGuid": "d269e8c1-28db-4818-ac76-e2b15337bec5",
+      "DisplayName": "AdminDash",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

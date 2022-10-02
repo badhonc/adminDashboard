@@ -1,0 +1,11 @@
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\DAL.dll
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\DAL.pdb
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\Dapper.dll
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\Domain.dll
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\Domain.pdb
+D:\My Web Sites\ASP\AdminDash\DAL\bin\Debug\Dapper.xml
+D:\My Web Sites\ASP\AdminDash\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\My Web Sites\ASP\AdminDash\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\My Web Sites\ASP\AdminDash\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\My Web Sites\ASP\AdminDash\DAL\obj\Debug\DAL.dll
+D:\My Web Sites\ASP\AdminDash\DAL\obj\Debug\DAL.pdb
