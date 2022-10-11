@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminDash", "AdminDash.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{9F005CA6-414E-4D73-8A78-9EB0B8838B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{F3E275D2-91BC-4C1F-90C3-072E3C2816B6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{9F005CA6-414E-4D73-8A78-9EB0B8838B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F005CA6-414E-4D73-8A78-9EB0B8838B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F005CA6-414E-4D73-8A78-9EB0B8838B24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3E275D2-91BC-4C1F-90C3-072E3C2816B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3E275D2-91BC-4C1F-90C3-072E3C2816B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3E275D2-91BC-4C1F-90C3-072E3C2816B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3E275D2-91BC-4C1F-90C3-072E3C2816B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
