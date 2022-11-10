@@ -47,7 +47,7 @@ namespace AdminDash
                 }
                 else
                 {
-                    labelError.Text = "Invalid Usernamr or Password";
+                    labelError.Text = "Invalid Username or Password";
                     labelError.Visible = true;
                 }
                 

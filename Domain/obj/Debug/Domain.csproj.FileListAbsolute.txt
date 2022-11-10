@@ -1,6 +1,0 @@
-D:\My Web Sites\ASP\AdminDash\Domain\bin\Debug\Domain.dll
-D:\My Web Sites\ASP\AdminDash\Domain\bin\Debug\Domain.pdb
-D:\My Web Sites\ASP\AdminDash\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
-D:\My Web Sites\ASP\AdminDash\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
-D:\My Web Sites\ASP\AdminDash\Domain\obj\Debug\Domain.dll
-D:\My Web Sites\ASP\AdminDash\Domain\obj\Debug\Domain.pdb

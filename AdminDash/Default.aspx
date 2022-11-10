@@ -42,7 +42,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Admin Board</div>
             </a>
 
             <!-- Divider -->
@@ -72,9 +72,18 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                      <ul class="nav flex-column justify-content-between align-content-center align-items-center">  <%--<h6 class="collapse-header">Custom Components:</h6>--%>
+                        <li class="nav-item"> <a class="collapse-item" href="buttons.html">Buttons</a></li>
+                       <li class="nav-item"><a class="collapse-item nav-link text-center" href="cards.html">Cards </a>
+                            
+                                <ul class="nav"> 
+                                <li class="nav-item">cards2</li>
+                                <li class="nav-item">cards1</li>
+                                <li class="nav-item">cards3</li>
+                            </ul> 
+                       
+                       </li>
+                      </ul>
                     </div>
                 </div>
             </li>
