@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="AdminDash.Register" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -62,6 +61,7 @@
                                      <asp:TextBox ID="exampleRepeatPassword" CssClass="form-control form-control-user" placeholder="Repeat Password" TextMode="Password" runat="server" required="true"></asp:TextBox>
                                     </div>
                                 </div>
+                                <asp:Label ID="labelError" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label>
                                 <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btn-primary btn-user btn-block" OnClick="btnRegister_Click"/>
                                 <hr/>
                                 <a href="index.html" class="btn btn-google btn-user btn-block">
@@ -79,7 +79,7 @@
                                 <a class="small" href="Login.aspx">Already have an account? Login!</a>
                             </div>
                             <br />
-                            <asp:Label ID="labelError" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label>
+                            
                             <br /><br />
                         </div>
                     </div>

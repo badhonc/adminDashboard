@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DAL;
 
 namespace AdminDash
 {
@@ -24,11 +25,34 @@ namespace AdminDash
             var Password = exampleInputPassword.Text.Trim();
             var Repeat = exampleRepeatPassword.Text.Trim();
 
-            //if (FirstName == "")
-            //{
-            //    labelError.Text = "Enter FIrst name";
-            //}
 
+            var user = new DAL.Users
+            {
+                Username = UserName,
+                Password = Password,
+                FirstName = FirstName,
+                LastName = LastName,
+                Email  = Email,
+                Contact_No = Contact
+            };
+            if (Password != Repeat)
+            {
+                labelError.Text = "Password and Repeat Password must be same";
+            }
+            else
+            {
+                if (UserCheck.Insert(user))
+                {
+
+                    labelError.Text = "User Added Successfully";
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "redirect", "alert('User Added Successfully'); window.location='https://" + Request.Url.Authority + Request.ApplicationPath + "Login.aspx';", true);
+                    //Response.Redirect("Login.aspx");
+                }
+                else
+                {
+                    labelError.Text = "Error inserting";
+                }
+            }
         }
     }
 }
