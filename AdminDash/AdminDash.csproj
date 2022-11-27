@@ -128,6 +128,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Colors.aspx" />
     <Content Include="css\sb-admin-2.css" />
     <Content Include="css\sb-admin-2.min.css" />
     <Content Include="Default.aspx" />
@@ -147,6 +148,7 @@
     <Content Include="js\sb-admin-2.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="UserList.aspx" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.js" />
@@ -1821,6 +1823,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Colors.aspx.cs">
+      <DependentUpon>Colors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Colors.aspx.designer.cs">
+      <DependentUpon>Colors.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1866,6 +1875,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

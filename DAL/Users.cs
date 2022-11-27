@@ -15,5 +15,7 @@ namespace DAL
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Contact_No { get; set; }
+        public string Name { get; set; }
+        public int Sl { get; set; }
     }
 }

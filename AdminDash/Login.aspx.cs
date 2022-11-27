@@ -41,16 +41,16 @@ namespace AdminDash
                     Password = password
                 };
                 var user = UserCheck.CheckLogin(objUser);
-                if(user != null)
+                if (user != null)
                 {
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("Home.aspx");
                 }
                 else
                 {
                     labelError.Text = "Invalid Username or Password";
                     labelError.Visible = true;
                 }
-                
+
             }
         }
     }

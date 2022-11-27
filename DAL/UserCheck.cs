@@ -26,5 +26,11 @@ namespace DAL
                 return con.Execute(inUser, u) > 0;
             }
         }
+        public static List<Users> FetchUser()
+        {
+            string sql = " select [Id],ROW_NUMBER() over (order by Id) as Sl,[user_name] as [Username],[FirstName],[lastName],concat(firstName,lastName) as name,[contact_no],[email] from Users";
+            var con = DbConnection.GetConnection();
+            return con.Query<Users>(sql).ToList();
+        }
     }
 }
