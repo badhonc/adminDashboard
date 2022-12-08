@@ -11,6 +11,10 @@ namespace AdminDash
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Cookies["uid"] == null)
+            {
+                Response.Redirect("login.aspx");
+            }
             GetData();
         }
 

@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <asp:Label ID="labelError" runat="server" Text="" Font-Bold="true" ForeColor="Red"></asp:Label>
-                                <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btn-primary btn-user btn-block" OnClick="btnRegister_Click"/>
+                                <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btn-primary btn-user btn-block" OnClick="BtnRegister_Click"/>
                                 <hr/>
                                 <a href="index.html" class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Register with Google

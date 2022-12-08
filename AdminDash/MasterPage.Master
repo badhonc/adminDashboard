@@ -11,8 +11,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title></title>
-
+    <title><%: Page.Title %> - Dashboard</title>
+    <style>
+        /*for hiding search on mobile*/
+        @media only screen and (max-width: 600px) {
+            #content > nav > div {
+                display: none;
+            }
+        }
+    </style>
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -158,7 +165,7 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <button id="sidebarToggleTop" type="button" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 

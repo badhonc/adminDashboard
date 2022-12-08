@@ -15,7 +15,7 @@ namespace AdminDash
 
         }
 
-        protected void btnRegister_Click(object sender, EventArgs e)
+        protected void BtnRegister_Click(object sender, EventArgs e)
         {
             var FirstName = exampleFirstName.Text.Trim();
             var LastName = exampleLastName.Text.Trim();
